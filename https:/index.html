@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA Benet - Consultoría para PYMES y Autónomos</title>
+    <!-- Incluye Tailwind CSS para un diseño moderno y responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Un gris claro para el fondo */
+            color: #333; /* Color de texto principal */
+        }
+        /* Estilos para asegurar que las imágenes sean responsivas y tengan esquinas redondeadas */
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.75rem; /* rounded-xl */
+            display: block; /* Elimina espacio extra debajo de la imagen */
+            margin: 0 auto 1.5rem auto; /* Centra la imagen y le da margen inferior */
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+    <!-- Encabezado de la página -->
+    <header class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white p-4 shadow-lg rounded-b-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 py-2">
+            <h1 class="text-3xl font-bold rounded-lg p-2 bg-white bg-opacity-20 mb-4 md:mb-0">IA Benet</h1>
+            <nav>
+                <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 text-lg text-center">
+                    <li><a href="#inicio" class="hover:text-blue-300 transition duration-300">Inicio</a></li>
+                    <li><a href="#servicios" class="hover:text-blue-300 transition duration-300">Servicios</a></li>
+                    <li><a href="#contacto" class="hover:text-blue-300 transition duration-300">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección principal - Hero -->
+    <main class="flex-grow container mx-auto px-4 py-8 md:py-16">
+        <section id="inicio" class="bg-white p-8 rounded-xl shadow-lg mb-8 text-center">
+            <h2 class="text-4xl font-bold text-indigo-800 mb-4">Impulsa tu Negocio con IA Benet: Consultoría para PYMES y Autónomos</h2>
+            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                En IA Benet, ofrecemos soluciones de consultoría estratégica y operativa adaptadas a las necesidades específicas de Pequeñas y Medianas Empresas (PYMES) y autónomos. Simplificamos lo complejo para que te enfoques en crecer sin tecnicismos.
+            </p>
+            <a href="#servicios" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full shadow-md transition duration-300 transform hover:scale-105">
+                Solicita tu Diagnóstico Gratuito
+            </a>
+        </section>
+
+        <!-- Sección de Servicios/Características -->
+        <section id="servicios" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            <!-- Tarjeta de Servicio 1: Diagnóstico Gratuito -->
+            <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+                <img src="https://placehold.co/600x400/525252/FFF?text=Análisis+de+Datos" alt="Imagen de Análisis de Datos para Diagnóstico Empresarial" class="responsive-img">
+                <div class="text-5xl text-blue-600 mb-4">🔍</div> <!-- Icono de lupa (emoji) -->
+                <h3 class="text-2xl font-semibold text-gray-800 mb-2">Diagnóstico Gratuito Personalizado</h3>
+                <p class="text-gray-600">Analizamos el estado actual de tu negocio para identificar oportunidades de mejora y crecimiento, sin compromiso inicial. Entiende dónde estás y hacia dónde puedes ir.</p>
+            </div>
+            <!-- Tarjeta de Servicio 2: Estrategia y Crecimiento -->
+            <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+                <img src="https://placehold.co/600x400/6b7280/FFF?text=Gráfico+de+Crecimiento" alt="Imagen de Gráfico de Crecimiento para Estrategia de Negocio" class="responsive-img">
+                <div class="text-5xl text-green-600 mb-4">📈</div> <!-- Icono de crecimiento (emoji) -->
+                <h3 class="text-2xl font-semibold text-gray-800 mb-2">Estrategia a tu Medida</h3>
+                <p class="text-gray-600">Desarrollamos planes de acción claros y efectivos que te guiarán hacia tus objetivos. Optimizamos recursos y procesos para maximizar tus resultados de forma directa.</p>
+            </div>
+            <!-- Tarjeta de Servicio 3: Soporte Continuo -->
+            <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+                <img src="https://placehold.co/600x400/9ca3af/FFF?text=Equipo+de+Colaboración" alt="Imagen de Equipo de Colaboración para Soporte Continuo" class="responsive-img">
+                <div class="text-5xl text-purple-600 mb-4">🤝</div> <!-- Icono de apretón de manos (emoji) -->
+                <h3 class="text-2xl font-semibold text-gray-800 mb-2">Soporte Continuo y Cercano</h3>
+                <p class="text-gray-600">Te acompañamos en cada paso, ofreciendo un asesoramiento práctico y directo. Resolvemos tus dudas y te brindamos apoyo sin complicaciones innecesarias.</p>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="bg-white p-8 rounded-xl shadow-lg text-center">
+            <h2 class="text-3xl font-bold text-indigo-800 mb-6">Contáctanos para Impulsar tu Negocio</h2>
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                ¿Listo para ver crecer tu PYME o tu proyecto como autónomo?
+                Para solicitar tu diagnóstico gratuito o cualquier consulta, envíanos un correo electrónico directamente a:
+            </p>
+            <p class="text-2xl font-bold text-blue-700 mb-6">
+                <a href="mailto:bramirezrubiano@gmail.com" class="hover:underline">bramirezrubiano@gmail.com</a>
+            </p>
+            <p class="text-md text-gray-600">
+                Estaremos encantados de atenderte y ofrecerte la claridad que necesitas para tus próximos pasos.
+            </p>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-gray-800 text-white p-6 mt-8 rounded-t-lg">
+        <div class="container mx-auto text-center text-sm">
+            <p>&copy; 2025 IA Benet. Todos los derechos reservados.</p>
+            <div class="mt-2 space-x-4">
+                <a href="#" class="hover:text-gray-400 transition duration-300">Aviso Legal</a>
+                <a href="#" class="hover:text-gray-400 transition duration-300">Política de Privacidad</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
